@@ -16,9 +16,9 @@ public class ImageController {
     private Path rootLocation = Paths.get("src","main", "resources", "images");
 
     @ResponseBody
-    @RequestMapping(value = "/getImage", method = RequestMethod.GET, produces = MediaType.IMAGE_JPEG_VALUE)
+    @RequestMapping(value = "/getImage", method = RequestMethod.GET, produces = MediaType.IMAGE_PNG_VALUE)
     public byte[] getImageAsByteArray(@RequestParam String name) throws IOException {;
-        Path file = rootLocation.resolve(name + ".jpg");
+        Path file = rootLocation.resolve(name + ".png");
         Resource resource = new UrlResource(file.toUri());
         return IOUtils.toByteArray(resource.getInputStream());
     }

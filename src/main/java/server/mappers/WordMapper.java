@@ -18,7 +18,7 @@ public class WordMapper implements RowMapper<Word> {
         String ru = resultSet.getString(WordDatabaseContract.COLUMN_RU);
         String url = resultSet.getString(WordDatabaseContract.COLUMN_PHOTO_URL);
         int gr = resultSet.getInt(WordDatabaseContract.COLUMN_GROUP);
-        String category = resultSet.getString(WordDatabaseContract.COLUMN_CATEGORY);
+        Integer category = resultSet.getInt(WordDatabaseContract.COLUMN_CATEGORY_ID);
 
         word = new Word(
                 id,

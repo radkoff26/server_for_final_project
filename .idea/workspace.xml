@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba39b7bb-087c-4bcb-8887-bae9b2b41ac6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/controllers/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/controllers/ImageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/mappers/WordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/mappers/WordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/models/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/models/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/models/WordDatabaseContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/models/WordDatabaseContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/controllers/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/controllers/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/controllers/WordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/controllers/WordController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/mappers/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/mappers/CategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/mappers/WordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/mappers/WordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/models/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/models/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/models/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/models/Word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/models/WordDatabaseContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/models/WordDatabaseContract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/repositories/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/repositories/CategoryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/repositories/WordRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/repositories/WordRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/services/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/services/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/services/WordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/services/WordService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +56,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/server/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/images" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="server.models" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\radko\OneDrive\Java\ServerForProject\src\main\resources\images" />
       <recent name="C:\Users\radko\OneDrive\Java\ServerForProject\src\main\java\server\controllers" />
       <recent name="C:\Users\radko\OneDrive\Java\ServerForProject\src\main\java\server\res" />
     </key>
@@ -86,5 +104,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -6,15 +6,15 @@ public class Word {
     private String ru;
     private String url;
     private Integer gr;
-    private String category;
+    private Integer category_id;
 
-    public Word(Integer id, String eng, String ru, String url, Integer gr, String category) {
+    public Word(Integer id, String eng, String ru, String url, Integer gr, Integer category_id) {
         this.id = id;
         this.eng = eng;
         this.ru = ru;
         this.url = url;
         this.gr = gr;
-        this.category = category;
+        this.category_id = category_id;
     }
 
     public Integer getId() {
@@ -37,7 +37,7 @@ public class Word {
         return gr;
     }
 
-    public String getCategory() {
-        return category;
+    public Integer getCategory_id() {
+        return category_id;
     }
 }
