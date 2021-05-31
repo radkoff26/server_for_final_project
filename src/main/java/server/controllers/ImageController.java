@@ -13,7 +13,7 @@ import java.nio.file.Paths;
 @Controller
 public class ImageController {
 
-    private Path rootLocation = Paths.get("src","main", "resources", "images");
+    private Path rootLocation = Paths.get("images");
 
     @ResponseBody
     @RequestMapping(value = "/getImage", method = RequestMethod.GET, produces = MediaType.IMAGE_PNG_VALUE)

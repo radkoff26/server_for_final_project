@@ -28,4 +28,10 @@ public class WordController {
         return wordService.getWords(gr);
     }
 
+    @ResponseBody
+    @RequestMapping("/getWordsRange")
+    public List<Word> getRangeOfWords(@RequestParam(name = "start") Integer start, @RequestParam(name = "end") Integer end) {
+        return wordService.getRangeOfWords(start, end);
+    }
+
 }

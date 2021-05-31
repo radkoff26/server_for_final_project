@@ -21,4 +21,8 @@ public class WordService {
         return wordRepository.getWords(gr);
     }
 
+    public List<Word> getRangeOfWords(int start, int end) {
+        return wordRepository.getRangeOfWords(start, end);
+    }
+
 }

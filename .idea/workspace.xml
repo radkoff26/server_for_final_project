@@ -6,21 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="ba39b7bb-087c-4bcb-8887-bae9b2b41ac6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/controllers/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/controllers/ImageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/mappers/WordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/mappers/WordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/models/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/models/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/models/WordDatabaseContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/models/WordDatabaseContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/controllers/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/controllers/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/controllers/WordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/controllers/WordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/repositories/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/repositories/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/repositories/WordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/repositories/WordRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/services/WordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/services/WordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/WordController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Word.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/controllers/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/controllers/ImageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/server/controllers/WordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/controllers/WordController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/mappers/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/mappers/CategoryMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/mappers/WordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/mappers/WordMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/models/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/models/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/models/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/models/Word.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/models/WordDatabaseContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/models/WordDatabaseContract.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/server/repositories/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/repositories/CategoryRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/server/repositories/WordRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/repositories/WordRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server/services/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/services/CategoryService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/server/services/WordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/services/WordService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -38,5 +38,15 @@ public class WordRepository {
         );
     }
 
+    public List<Word> getRangeOfWords(int start, int end) {
+
+        jdbcTemplate.execute("USE server");
+
+        return jdbcTemplate.query(
+                "SELECT * FROM all_words WHERE id BETWEEN " + start + " AND " + end,
+                new WordMapper()
+        );
+    }
+
 
 }

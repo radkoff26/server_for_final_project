@@ -15,7 +15,7 @@ public class CategoryRepository {
     JdbcTemplate jdbcTemplate;
 
     public List<Category> getCategories() {
-        jdbcTemplate.execute("USE categories");
+        jdbcTemplate.execute("USE server");
         return jdbcTemplate.query(
                 "SELECT * FROM all_categories",
                 new CategoryMapper()
